@@ -27,6 +27,7 @@
 
 .table-bordered{
     border-color: #E2EFDA;
+    border-collapse: separate;
 }
 
 .cor_cabecalho_tb{
