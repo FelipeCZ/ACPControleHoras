@@ -1,0 +1,65 @@
+.titulo_pag{
+    text-align: center;
+    font-family: 'BlackOpsOne-Regular';
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'BlackOpsOne-Regular' ;
+    src: url('../css/fontes/BlackOpsOne-Regular.ttf') format('truetype');
+}
+
+@media (min-width: 576px){
+    .tb_ctr_horas{
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 1px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    }
+}
+.tb_ctr_horas{
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+}
+
+.table-bordered{
+    border-color: #E2EFDA;
+}
+
+.cor_cabecalho_tb{
+    background-color: #626E58;
+    color: white;
+}
+
+#bg_tr tr:nth-of-type(odd){ /*Cor de fundo da tabela para linhas ímpares*/
+    background-color: #E2EFDA;
+}
+
+#bg_tr tr:nth-of-type(even){ /*Cor de fundo da tabela para linhas pares*/
+    background-color: #BED4A9; 
+}
+
+#borda_btn {
+    border-width: 0 0px;
+    background-color: transparent;
+}
+
+#borda_btn_edit{
+    border-width: 0 0px;
+    background-color: transparent;
+}
+
+.bt_adc_info{
+    color: #0d6efd !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+/* css da paginação da tabela
+.num_pag_tb{
+    text-align: end;
+
+}//

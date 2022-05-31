@@ -1,0 +1,10 @@
+body{
+    background-image:url(/src/main/resources/static/imagens/bg_aeroclube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.img_logo{
+    padding-left: 5px;
+    padding-top: 5px;
+}
