@@ -76,15 +76,10 @@
     background-color: var(--corsecundaria) ;
 }
 
-.select_hover:hover{
-    background-color: aquamarine!important;
-}
-
 .cor_modal_titulo{
     color: var(--corprimaria);
 }
 
-.form_select:hover, .select option:hover{
-    background-color: aquamarine!important;
-    
+.bg_modal_select{
+    background-color: var(--corterciaria);
 }
