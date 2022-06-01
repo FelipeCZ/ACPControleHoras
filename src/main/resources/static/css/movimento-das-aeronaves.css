@@ -1,12 +1,13 @@
+@font-face {
+    font-family: 'BlackOpsOne-Regular' ;
+    src: url('../css/fontes/BlackOpsOne-Regular.ttf') format('truetype');
+}
+
 .titulo_pag{
     text-align: center;
     font-family: 'BlackOpsOne-Regular';
     font-weight: normal;
-}
-
-@font-face {
-    font-family: 'BlackOpsOne-Regular' ;
-    src: url('../css/fontes/BlackOpsOne-Regular.ttf') format('truetype');
+    color: var(--corquintaria);
 }
 
 @media (min-width: 576px){
@@ -77,9 +78,39 @@
 }
 
 .cor_modal_titulo{
-    color: var(--corprimaria);
+    color: var(--corquaternaria);
 }
 
 .bg_modal_select{
     background-color: var(--corterciaria);
 }
+
+.btn.cor_botao_modal{
+    background-color: var(--corprimaria);
+    color: var(--corterciaria);
+    font-weight: bold;
+}
+
+.btn.cor_botao_modal:hover{
+    background-color: var(--corsecundaria);
+    color: var(--corquaternaria);
+    font-weight: bold; 
+}
+
+.btn.cor_botao_modal_salvar{
+    background-color: var(--corsecundaria);
+    color: var(--corquaternaria);
+    font-weight: bold;
+}
+
+.btn.cor_botao_modal_salvar:hover{
+    background-color: var(--corprimaria);
+    color: var(--corterciaria);
+    font-weight: bold;  
+}
+
+.pr_botao_voltar{
+    padding-right: 33px;
+}
+
+

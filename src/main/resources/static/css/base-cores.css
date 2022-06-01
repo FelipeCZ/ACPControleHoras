@@ -3,5 +3,6 @@
     --corprimaria: #626E58;/*Cor principal da paleta usada para letras, contornos e backgrounds mais escuros*/
     --corsecundaria: #BED4A9;/*cor usada para backgrounds*/
     --corterciaria: #E2EFDA;/*Cor usada para detalhes (como linhas da tabela)*/
-
+    --corquaternaria:#404739; /*Cor usada para detalhes (como fundo do botão)*/
+    --corquintaria: #78866B; /*Cor usada no título da página e titulos de modais*/
 }
