@@ -1,0 +1,7 @@
+@charset "UTF-8";
+:root{
+    --corprimaria: #626E58;/*Cor principal da paleta usada para letras, contornos e backgrounds mais escuros*/
+    --corsecundaria: #BED4A9;/*cor usada para backgrounds*/
+    --corterciaria: #E2EFDA;/*Cor usada para detalhes (como linhas da tabela)*/
+
+}

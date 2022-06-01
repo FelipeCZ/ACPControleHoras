@@ -26,21 +26,21 @@
 }
 
 .table-bordered{
-    border-color: #E2EFDA;
+    border-color: var(--corterciaria);
     border-collapse: separate;
 }
 
 .cor_cabecalho_tb{
-    background-color: #626E58;
+    background-color: var(--corprimaria);
     color: white;
 }
 
 #bg_tr tr:nth-of-type(odd){ /*Cor de fundo da tabela para linhas ímpares*/
-    background-color: #E2EFDA;
+    background-color: var(--corterciaria);
 }
 
 #bg_tr tr:nth-of-type(even){ /*Cor de fundo da tabela para linhas pares*/
-    background-color: #BED4A9; 
+    background-color: var(--corsecundaria); 
 }
 
 #borda_btn {
@@ -64,3 +64,27 @@
     text-align: end;
 
 }//
+
+/*CSS MODAL ADICIONAR INFORMAÇÕES*/
+
+.bg_modal_header, .bg_modal_body, .bg_modal_footer, .modal-content.bg_modal{
+    background-color: var(--corterciaria);
+    
+}
+
+.form-select.bg_modal_select, .form-control.bg_modal_input{
+    background-color: var(--corsecundaria) ;
+}
+
+.select_hover:hover{
+    background-color: aquamarine!important;
+}
+
+.cor_modal_titulo{
+    color: var(--corprimaria);
+}
+
+.form_select:hover, .select option:hover{
+    background-color: aquamarine!important;
+    
+}
