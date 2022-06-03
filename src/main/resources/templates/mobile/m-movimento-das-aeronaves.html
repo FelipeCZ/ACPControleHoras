@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movimento das aeronaves</title>
+  <link rel="stylesheet" href="/src/main/resources/static/css/mobile/m-global.css">
+  <link rel="stylesheet" href="/src/main/resources/static/css/base-cores.css">
+  <link rel="stylesheet" href="/src/main/resources/static/css/mobile/m-movimento-das-aeronaves.css">
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/src/main/resources/static/css/bootstrap/bootstrap-css/bootstrap.min.css">
+  <link rel="stylesheet" href="/src/main/resources/static/css/bootstrap/bootstrap-icons/bootstrap-icons.css">
+  <script src="/src/main/resources/static/js/bootstrap-js/bootstrap.bundle.js"></script>
+
+</head>
+
+<body class="fundo">
+  <header>
+    <img src="/src/main/resources/static/imagens/mobile/logo_aeroclube_128x128.png"
+      alt="Logo do Aeroclube de Pirssununga" class="img_logo img-fluid p-3">
+
+    <div>
+      <h1 class="titulo_pag">MOVIMENTO DAS AERONAVES</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="bd-example">
+      <div class="table-responsive-xxl alinhamento_texto_tabela">
+        <table class="table table-bordered">
+          <caption>
+            <button type="button" class="bt_adc_info" data-bs-toggle="modal" data-bs-target="#exampleModalToggle"
+              data-bs-whatever="@mdo">Adicionar informações</button>
+          </caption>
+          <thead class="cor_cabecalho_tb">
+            <tr>
+              <th scope="col">Data</th>
+              <th scope="col">Pref. do avião</th>
+              <th scope="col">Piloto</th>
+              <th scope="col">Aluno</th>
+              <th scope="col">Loc. da decolagem</th>
+              <th scope="col">Loc. da aterragem</th>
+              <th scope="col">Hr. decolagem</th>
+              <th scope="col">Hr. aterragem</th>
+              <th scope="col">Tempo de vôo</th>
+              <th scope="col">Nº do cartão de vôo</th>
+              <th scope="col">Nº de aterragem</th>
+              <th scope="col">Observações</th>
+              <th scope="col">Ações</th>
+            </tr>
+          </thead>
+          <tbody id="bg_tr">
+            <tr class="cor_linha_tab">
+              <th scope="row">1</th>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>
+                <button id="borda_btn" type="button" data-bs-toggle="modal" class="text-danger"
+                data-bs-target="#excluirModal" title="Remover Membro">
+                <i class="bi bi-trash"></i>
+              </button>
+
+              <button id="borda_btn_edit" type="button" data-bs-toggle="modal" class="text-secundary"
+                data-bs-target="#alterarModal" title="Alterar Membro">
+                <i class="bi bi-pencil-square"></i>
+              </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>
+                <button id="borda_btn" type="button" data-bs-toggle="modal" class="text-danger"
+                data-bs-target="#excluirModal" title="Remover Membro">
+                <i class="bi bi-trash"></i>
+              </button>
+
+              <button id="borda_btn_edit" type="button" data-bs-toggle="modal" class="text-secundary"
+                data-bs-target="#alterarModal" title="Alterar Membro">
+                <i class="bi bi-pencil-square"></i>
+              </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>
+              <td>Cell</td>      
+              <td>
+                <button id="borda_btn" type="button" data-bs-toggle="modal" class="text-danger"
+                data-bs-target="#excluirModal" title="Remover Membro">
+                <i class="bi bi-trash"></i>
+              </button>
+
+              <button id="borda_btn_edit" type="button" data-bs-toggle="modal" class="text-secundary"
+                data-bs-target="#alterarModal" title="Alterar Membro">
+                <i class="bi bi-pencil-square"></i>
+              </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+
+</body>
+
+</html>

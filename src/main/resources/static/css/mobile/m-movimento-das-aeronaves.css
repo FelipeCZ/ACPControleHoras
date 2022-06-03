@@ -1,0 +1,58 @@
+
+.fundo{
+    background-image:url(/src/main/resources/static/imagens/mobile/img_bg_mobile_menor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.titulo_pag{
+    text-align: center;
+    font-family: 'BlackOpsOne-Regular';
+    font-weight: bold;
+    color: var(--corquintaria);
+}
+
+.table-bordered{
+    border-color: var(--corterciaria);
+    border-collapse: collapse;
+}
+
+.cor_cabecalho_tb{
+    background-color: var(--corprimaria);
+    color: white;
+    text-align: center;
+}
+
+#bg_tr tr:nth-of-type(odd){ /*Cor de fundo da tabela para linhas ímpares*/
+    background-color: var(--corterciaria);
+}
+
+#bg_tr tr:nth-of-type(even){ /*Cor de fundo da tabela para linhas pares*/
+    background-color: var(--corsecundaria); 
+}
+
+#borda_btn {
+    border-width: 0 0px;
+    background-color: transparent;
+}
+
+#borda_btn_edit{
+    border-width: 0 0px;
+    background-color: transparent;
+}
+
+.bt_adc_info{
+    color: #0d6efd !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.alinhamento_texto_tabela{
+    text-align: center;
+}
