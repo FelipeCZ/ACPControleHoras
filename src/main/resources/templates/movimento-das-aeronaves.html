@@ -186,7 +186,30 @@
       </table>
     </div>
   </article>
-  <!--Modal Adicionar informações-->
+
+  <!--Excluir informações-->
+  <div class="modal fade" id="excluirModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <form action="/remover_usuario?usuario={{id_usuario}}" templete="/remover_usuario?&usuario=" method="POST">
+      <div class="modal-dialog modal-lg modal-width">
+        <div class="modal-content">
+          <div class="modal-header bg_modal_header">
+            <h5 class="modal-title cor_modal_titulo" id="exampleModalLabel">Excluir informações</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg_modal_body"><i class="bi bi-exclamation-triangle text-danger"></i>
+            Deseja mesmo excluir essas informações? <br> Esta ação não poderá ser desfeita e todos os dados serão perdidos!<i
+              class="bi bi-exclamation-triangle text-danger"></i>
+          </div>
+          <div class="modal-footer bg_modal_footer">
+            <button type="button" class="btn fw-bold cor_botao_modal_nao" data-bs-dismiss="modal" aria-label="Close">Manter</button>
+            <button type="submit" class="btn fw-bold cor_botao_modal_sim">Excluir <i class="bi bi-trash"></i></button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+<!--Modal Adicionar informações-->
   <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
     tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
@@ -283,12 +306,12 @@
           </form>
         </div>
         <div class="mb-4 bg_modal_footer">
-          <div class="row m-0">
-            <div class="modal-footer col-3 pr_botao_voltar">
+          <div class="row ">
+            <div class="modal-footer col">
               <button class="btn cor_botao_modal" data-bs-target="#exampleModalToggle2"
                 data-bs-toggle="modal">Voltar <i class="bi bi-arrow-return-left"></i></button>
             </div>
-            <div class="modal-footer col-9">
+            <div class="modal-footer col-3">
               <button class="btn cor_botao_modal_salvar" data-bs-target="#exampleModalToggle2"
                 data-bs-toggle="modal">Salvar <i class="bi bi-save-fill"></i></button>
             </div>

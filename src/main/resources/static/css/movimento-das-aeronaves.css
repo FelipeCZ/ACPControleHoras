@@ -66,7 +66,7 @@
 
 }//
 
-/*CSS MODAL ADICIONAR INFORMAÇÕES*/
+/*CSS MODAL ADICIONAR E EXCLUIR INFORMAÇÕES*/
 
 .bg_modal_header, .bg_modal_body, .bg_modal_footer, .modal-content.bg_modal{
     background-color: var(--corterciaria);
@@ -109,8 +109,29 @@
     font-weight: bold;  
 }
 
-.pr_botao_voltar{
-    padding-right: 33px;
+.btn.cor_botao_modal_sim{
+    background-color: var(--corsecundaria);
+    color: var(--corquaternaria);
+    font-weight: bold;
 }
+
+.btn.cor_botao_modal_sim:hover{
+    background-color: var(--corprimaria);
+    color: var(--corterciaria);
+    font-weight: bold;  
+}
+
+.btn.cor_botao_modal_nao{
+    background-color: var(--corprimaria);
+    color: var(--corterciaria);
+    font-weight: bold;
+}
+
+.btn.cor_botao_modal_nao:hover{
+    background-color: var(--corsecundaria);
+    color: var(--corquaternaria);
+    font-weight: bold; 
+}
+
 
 
